@@ -13,7 +13,7 @@ import Login from "./pages/Login";
 import PrivateRoute from "./components/PrivateRoute";
 import LogOut from "./pages/LogOut";
 
-/* teste */
+/* teste 1 em notebook */
 /* NavBar */
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
