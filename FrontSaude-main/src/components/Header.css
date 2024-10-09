@@ -1,0 +1,26 @@
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, #00bfa5, #009688, #00bfa5);
+    color: white;
+    padding: 20px 0;
+    margin: 0px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-link h1 {
+    margin: 0;
+    font-size: 2.5em;
+    transition: color 0.3s;
+  }
+  
+  /* Header Link Styles */
+  .header-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  

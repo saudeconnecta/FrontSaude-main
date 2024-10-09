@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: center;
+  background: #00796b;
+}
+
+nav a:hover {
+  background: #004d40;
+}
+
+
+/* Footer Styles */
+footer {
+  background: #00796b;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      width: 95%;
+  }
+
+  nav {
+      flex-direction: column;
+  }
+
+}
+
+
+/* Button Styles */
+.button {
+  background: linear-gradient(135deg, #00bfa5, #00796b);
+  color: #ffffff;
+  border: none;
+  padding: 16px 28px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #00796b, #00bfa5);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do Rodapé do Login */
+.login-footer {
+  position: fixed; /* Fixa o footer na parte inferior */
+  bottom: 0; /* Alinha o footer na parte inferior da tela */
+  left: 0; /* Alinha o footer à esquerda */
+  width: 100%; /* Define a largura como 100% */
+  background-color: #00796b; /* Cor de fundo para o footer */
+  color: #ffffff; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px 0; /* Adiciona espaçamento acima e abaixo do texto */
+  font-size: 0.9em; /* Tamanho da fonte */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra superior para destaque */
+}
+
+.login-footer p {
+  margin: 0; /* Remove margens do parágrafo */
+}
+
+
