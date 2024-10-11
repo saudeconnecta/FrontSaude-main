@@ -16,7 +16,7 @@ const Login = () => {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/CadastroPaciente");
+      navigate("/RelatorioUnico");
     } catch (err) {
       setError("Email ou senha incorretos");
     }
